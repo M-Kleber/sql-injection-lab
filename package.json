@@ -6,7 +6,7 @@
   "scripts": {
     "test": "mocha --reporter list \"**/*.test.js\"",
     "start": "node ./bin/www",
-    "debug": "DEBUG=sql-injection:* nodemon start"
+    "debug": "set DEBUG=sql-injection:* && nodemon start"
   },
   "dependencies": {
     "cookie-parser": "~1.4.4",
